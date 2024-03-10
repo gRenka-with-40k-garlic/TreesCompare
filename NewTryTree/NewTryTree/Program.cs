@@ -674,28 +674,34 @@ class Program
 
         Console.WriteLine("AVL дерево");
         AVLTree avlTree = new AVLTree();
-
-        avlTree.Insert(50);
-        avlTree.Insert(30);
-        avlTree.Insert(70);
-        avlTree.Insert(20);
-        avlTree.Insert(40);
-        avlTree.Insert(60);
-
+        
+        
+        /*
         //int keyToFind = new Random().Next(100);
         //bool FindAWLres = avlTree.Find(keyToFind);
         //Console.WriteLine($"Метод AWLTree.Find вернул: {FindAWLres}");
 
         sw.Start();
-        avlTree.Find(90); 
-        sw.Stop();
-        Console.WriteLine($"Время выполнения метода AWLTree.Find: {sw.Elapsed}");
-        sw.Reset();
-
-        sw.Start();
         avlTree.Insert(80);
         sw.Stop();
         Console.WriteLine($"Время выполнения метода AWLTree.Insert: {sw.Elapsed}");
+        sw.Reset();
+        */
+
+        sw.Start();
+        for (int i = 0; i < 200; i++)
+        {
+            int value = new Random().Next(1, 1000); // Генерация случайного значения от 1 до 1000
+            avlTree.Insert(value);
+        }
+        sw.Stop();
+        Console.WriteLine($"Время выполнения метода AVLTree.Insert для 200 значений: {sw.Elapsed}");
+        sw.Reset();
+
+        sw.Start();
+        avlTree.Find(90); 
+        sw.Stop();
+        Console.WriteLine($"Время выполнения метода AWLTree.Find: {sw.Elapsed}");
         sw.Reset();
 
         sw.Start();
@@ -726,26 +732,24 @@ class Program
         sw.Reset();
 
 
+
         Console.WriteLine("\nБинарное дерево поиска");
         BinarySearchTree binarySearchTree = new BinarySearchTree();
 
-        binarySearchTree.Insert(50);
-        binarySearchTree.Insert(30);
-        binarySearchTree.Insert(70);
-        binarySearchTree.Insert(20);
-        binarySearchTree.Insert(40);
-        binarySearchTree.Insert(60);
+        sw.Start();
+        for (int i = 0; i < 200; i++)
+        {
+            int value = new Random().Next(1, 1000); // Генерация случайного значения от 1 до 1000
+            binarySearchTree.Insert(value);
+        }
+        sw.Stop();
+        Console.WriteLine($"Время выполнения метода BinarySearchTree.Insert для 200 значений: {sw.Elapsed}");
+        sw.Reset();
 
         sw.Start();
         binarySearchTree.Find(90);
         sw.Stop();
         Console.WriteLine($"Время выполнения метода BinarySearchTree.Find: {sw.Elapsed}");
-        sw.Reset();
-
-        sw.Start();
-        binarySearchTree.Insert(80);
-        sw.Stop();
-        Console.WriteLine($"Время выполнения метода binarySearchTree.Insert: {sw.Elapsed}");
         sw.Reset();
 
         sw.Start();
@@ -776,26 +780,24 @@ class Program
         sw.Reset();
 
 
+
         Console.WriteLine("\nОтсортированный QuickSort массив");
         QuickSort quickSort = new QuickSort();
 
-        quickSort.Insert(50);
-        quickSort.Insert(30);
-        quickSort.Insert(70);
-        quickSort.Insert(20);
-        quickSort.Insert(40);
-        quickSort.Insert(60);
+        sw.Start();
+        for (int i = 0; i < 200; i++)
+        {
+            int value = new Random().Next(1, 1000); // Генерация случайного значения от 1 до 1000
+            quickSort.Insert(value);
+        }
+        sw.Stop();
+        Console.WriteLine($"Время выполнения метода quickSort.Insert для 200 значений: {sw.Elapsed}");
+        sw.Reset();
 
         sw.Start();
         quickSort.Find(90);
         sw.Stop();
         Console.WriteLine($"Время выполнения метода quickSort.Find: {sw.Elapsed}");
-        sw.Reset();
-
-        sw.Start();
-        quickSort.Insert(80);
-        sw.Stop();
-        Console.WriteLine($"Время выполнения метода quickSort.Insert: {sw.Elapsed}");
         sw.Reset();
 
         sw.Start();
@@ -812,20 +814,18 @@ class Program
         sw.Reset();
 
 
-        Console.WriteLine("\nНе отсортированный CustomArray массив");
-        CustomArray сustomArray = new CustomArray(7);
 
-        сustomArray.Insert(50);
-        сustomArray.Insert(30);
-        сustomArray.Insert(70);
-        сustomArray.Insert(20);
-        сustomArray.Insert(40);
-        сustomArray.Insert(60);
+        Console.WriteLine("\nНе отсортированный CustomArray массив");
+        CustomArray сustomArray = new CustomArray(210);
 
         sw.Start();
-        сustomArray.Insert(80);
+        for (int i = 0; i < 200; i++)
+        {
+            int value = new Random().Next(1, 1000); // Генерация случайного значения от 1 до 1000
+            сustomArray.Insert(value);
+        }
         sw.Stop();
-        Console.WriteLine($"Время выполнения метода CustomArray.Insert: {sw.Elapsed}");
+        Console.WriteLine($"Время выполнения метода сustomArray.Insert для 200 значений: {sw.Elapsed}");
         sw.Reset();
 
         sw.Start();
@@ -843,7 +843,7 @@ class Program
         sw.Start();
         сustomArray.FindbyInd(1);
         sw.Stop();
-        Console.WriteLine($"Время выполнения метода CustomArray.FindbyNum: {sw.Elapsed}");
+        Console.WriteLine($"Время выполнения метода CustomArray.FindbyInd: {sw.Elapsed}");
         sw.Reset();
 
         Console.WriteLine("CustomArray массив:");

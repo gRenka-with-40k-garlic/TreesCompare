@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewTryTree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fa9b30731d41bacf0b75a19fe0db303955b8d34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0b75436cbb8140133ec8552299690593463eeb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewTryTree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewTryTree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
