@@ -1,0 +1,14 @@
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\bin\Debug\net8.0\NewTryTree.exe
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\bin\Debug\net8.0\NewTryTree.deps.json
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\bin\Debug\net8.0\NewTryTree.runtimeconfig.json
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\bin\Debug\net8.0\NewTryTree.dll
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\bin\Debug\net8.0\NewTryTree.pdb
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\obj\Debug\net8.0\NewTryTree.GeneratedMSBuildEditorConfig.editorconfig
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\obj\Debug\net8.0\NewTryTree.AssemblyInfoInputs.cache
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\obj\Debug\net8.0\NewTryTree.AssemblyInfo.cs
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\obj\Debug\net8.0\NewTryTree.csproj.CoreCompileInputs.cache
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\obj\Debug\net8.0\NewTryTree.dll
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\obj\Debug\net8.0\refint\NewTryTree.dll
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\obj\Debug\net8.0\NewTryTree.pdb
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\obj\Debug\net8.0\NewTryTree.genruntimeconfig.cache
+P:\gennady_documents\Coding tools\Coding projects\VSProjects\NewTryTree\NewTryTree\obj\Debug\net8.0\ref\NewTryTree.dll
